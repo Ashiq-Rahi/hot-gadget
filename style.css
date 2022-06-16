@@ -1,0 +1,56 @@
+.container{
+    margin-bottom: 100px;
+}
+.carousel{
+    background-image: url(images/bg-1.png);
+    background-repeat: no-repeat;
+    background-position: center;;
+}
+.buy-now-btn{
+    padding: 10px 30px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+small{
+    color: orangered;
+}
+.card{
+    border: none;
+    text-align: center;
+    box-shadow: 5px 5px 10px lightgray;
+    padding: 50px;
+    border-radius: 15px;
+}
+.categories{
+    text-align: center;
+}
+.cat img{
+    width: 100%;
+}
+.cat-box{
+    box-shadow: 5px 5px 15px lightgray;
+    position: relative;
+    border-radius: 20px 0px;
+    width: 180px;
+    padding: 20px;
+    font-weight: 700;
+    color: #242424;
+}
+.cat-box img{
+    width: 100px;
+}
+.bag, .beauty, .shoe{
+    position: absolute;
+}
+
+.beauty{
+    left: 200px;
+    bottom: -70px;
+}
+.shoe{
+    left: 200px;
+    top: 100px;
+}
